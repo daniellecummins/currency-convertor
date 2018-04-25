@@ -1,4 +1,4 @@
-function euroToPounds()
+function euroToPounds() {
 
   var amount = parseInt(document.getElementById("value").value1);
 
@@ -6,4 +6,5 @@ function euroToPounds()
   var message = amount + 'euros converts to' + pounds + 'sterling';
   console.log(message);
   document.getElementById("resultsentence").innerHTML = message;
+  }
 
